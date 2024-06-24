@@ -147,24 +147,28 @@
     color: whitesmoke;
     cursor: pointer;
     padding: 7px 7px;
+    box-shadow: 1px 1px 2px whitesmoke;
   }
 
   .td-btn .edit-btn:hover {
     font-weight: bold;
     border: 1px dotted wheat;
     border-radius: 5px;
+    box-shadow: none;
   }
 
   .td-btn .save-btn:hover {
     font-weight: bold;
     border: 1px dotted whitesmoke;
     border-radius: 5px;
+    box-shadow: none;
   }
 
   .td-btn .del-btn:hover {
     font-weight: bold;
     border: 1px dotted brown;
     border-radius: 5px;
+    box-shadow: none;
   }
 
   .editing-input {
